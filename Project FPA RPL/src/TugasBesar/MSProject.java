@@ -13,7 +13,7 @@ import javafx.stage.Stage;
 
 /**
  *
- * @author andhika
+ * @author Oracle (E)
  */
 public class MSProject extends Application {
     

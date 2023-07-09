@@ -11,7 +11,7 @@ import javafx.scene.layout.Pane;
 
 /**
  *
- * @author andhika
+ * @author Oracle (E)
  */
 public class OpenScene {
     private Pane halaman;
