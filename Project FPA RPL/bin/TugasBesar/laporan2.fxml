@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1400.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TugasBesar.FXMLLaporanController">
+   <children>
+      <BorderPane fx:id="mainPane" prefHeight="700.0" prefWidth="1400.0">
+         <center>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <TextArea layoutX="270.0" layoutY="202.0" prefHeight="341.0" prefWidth="939.0" text="Desa Sanur Kaja yang memiliki potensi yang sangat besar untuk dikembangkan jika program-program yang ada pada pemerintah dapat&#10; ditindaklanjuti secara bersama-sama oleh pemerintah,masyarakat dan perguruan tinggi. Desa Sanur Kaja dimiliki letak demografi&#10; dan topografi yang sangat mendukungkegiatan dan aktivitas kepariwisataan seperti wisata bahari, penyediaan sarana perhotelan dan pantai &#10;yang berpasir putih sangat diminati untuk dikunjungi oleh wisatawan Kesadaran masyarakat khususnya pengunjung pantai &#10;Mertasari Desa SanurKaja akan pentingnya menjaga kebersihan &#10;&#10;lingkungan masih sangat kurang karenamasih ada masyarakat yang membuang sampah sembarangan terutama sampah plastik bekas&#10; pembungkus makanan yang dibiarkan berserakan di sekitar pantai.Pentingnya pemahaman konsep Tri Hita Karana bagi masyarakat sejak dini &#10;sehingga kebersihan lingkungan dpaat dinikmati oleh semua masyarakat sertakemamfaatan umum dapat dicapai melalui sosialisasi dan aksi &#10;sosial kebersihanlingkungan.Hakikat dasar pengelolaan dan pelestarian &#10;lingkungan hidup merupakanmodal utama pengembangan sumber daya&#10; alam dan sumber daya manusiasehingga dibutuhkan peran aktif masyarakat untuk mengupayakan pelestarian lingkungan&#10;">
+                     <font>
+                        <Font size="16.0" />
+                     </font></TextArea>
+                  <Label layoutX="576.0" layoutY="41.0" prefHeight="67.0" prefWidth="363.0" text="Laporan Kegiatan">
+                     <font>
+                        <Font name="Arial Black" size="36.0" />
+                     </font>
+                  </Label>
+                  <Button layoutX="69.0" layoutY="519.0" mnemonicParsing="false" onAction="#keHalamanawal" text="Kembali">
+                     <font>
+                        <Font name="Arial" size="30.0" />
+                     </font>
+                  </Button>
+                  <Text layoutX="653.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RINGKASAN">
+                     <font>
+                        <Font name="Arial" size="36.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

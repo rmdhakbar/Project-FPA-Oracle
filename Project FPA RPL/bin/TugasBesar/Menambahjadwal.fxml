@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1400.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TugasBesar.FXMLMenambahJadwalController">
+   <children>
+      <BorderPane fx:id="mainPane" prefHeight="700.0" prefWidth="1400.0">
+         <center>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: no;" BorderPane.alignment="CENTER">
+               <children>
+                  <Label layoutX="80.0" layoutY="15.0" text="Silahkan Isi Form Berikut Ini!">
+                     <font>
+                        <Font name="Arial Bold" size="26.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="80.0" layoutY="67.0" text="Nama Kegiatan">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="80.0" layoutY="151.0" text="Tempat">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="80.0" layoutY="243.0" text="Waktu">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="nama" layoutX="80.0" layoutY="98.0" prefHeight="42.0" prefWidth="802.0">
+                     <font>
+                        <Font name="Arial" size="20.0" />
+                     </font></TextField>
+                  <TextField fx:id="tempat" layoutX="80.0" layoutY="185.0" prefHeight="42.0" prefWidth="805.0">
+                     <font>
+                        <Font name="Arial" size="20.0" />
+                     </font></TextField>
+                  <TextField fx:id="waktu" layoutX="80.0" layoutY="275.0" prefHeight="42.0" prefWidth="808.0">
+                     <font>
+                        <Font name="Arial" size="20.0" />
+                     </font></TextField>
+                  <Button layoutX="80.0" layoutY="466.0" mnemonicParsing="false" text="Kembali">
+                     <font>
+                        <Font name="Arial" size="24.0" />
+                     </font>
+                  </Button>
+                  <Label layoutX="80.0" layoutY="331.0" text="Barang yang dibutuhkan">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="barang" layoutX="80.0" layoutY="365.0" prefHeight="42.0" prefWidth="808.0">
+                     <font>
+                        <Font name="Arial" size="20.0" />
+                     </font>
+                  </TextField>
+                  <Button layoutX="1112.0" layoutY="485.0" mnemonicParsing="false" onAction="#simpan" text="Simpan">
+                     <font>
+                        <Font name="Arial" size="24.0" />
+                     </font>
+                  </Button>
+               </children></AnchorPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

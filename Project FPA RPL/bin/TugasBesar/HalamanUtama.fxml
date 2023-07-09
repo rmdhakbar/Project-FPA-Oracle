@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1400.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TugasBesar.FXMLHalamanUtamaController">
+   <children>
+      <BorderPane fx:id="mainPane" prefHeight="700.0" prefWidth="1400.0">
+         <top>
+            <AnchorPane prefHeight="80.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="80.0" stroke="BLACK" strokeType="INSIDE" width="1400.0" />
+                  <Button layoutX="25.0" layoutY="15.0" mnemonicParsing="false" onAction="#keHalamanutama" style="-fx-background-color: none;">
+                     <graphic>
+                        <Label text="Aksi Untuk Lingkungan" textFill="WHITE">
+                           <font>
+                              <Font name="Arial Bold" size="40.0" />
+                           </font>
+                        </Label>
+                     </graphic>
+                  </Button>
+                  <Button layoutX="741.0" layoutY="23.0" mnemonicParsing="false" style="-fx-background-color: no;" text="Berita" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="22.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="827.0" layoutY="23.0" mnemonicParsing="false" onAction="#keHalamanPilihDonasi" style="-fx-background-color: no;" text="Donasi" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="22.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="1016.0" layoutY="23.0" mnemonicParsing="false" onAction="#keHalamanLaporan" style="-fx-background-color: no;" text="Laporan" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="22.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="1124.0" layoutY="23.0" mnemonicParsing="false" onAction="#keHalamanSosial" style="-fx-background-color: no;" text="Sosial" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="22.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="1229.0" layoutY="21.0" mnemonicParsing="false" onAction="#keHalamanLogin" style="-fx-background-color: no; -fx-border-color: white;" text="Login" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="921.0" layoutY="23.0" mnemonicParsing="false" onAction="#keHalamanJadwal" style="-fx-background-color: no;" text="Jadwal" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="22.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="1325.0" layoutY="9.0" mnemonicParsing="false" onAction="#keHalamanAkun" style="-fx-background-color: no;">
+                     <graphic>
+                        <ImageView fitHeight="57.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Sumber%20Foto/user%20(1).png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </top>
+         <center>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Text layoutX="56.0" layoutY="222.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Air di kanal Venesia berubah warna jadi hijau neon, kelompok aktivis lingkungan dicurigai" wrappingWidth="300.068359375">
+                     <font>
+                        <Font name="Arial" size="18.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="402.0" layoutY="222.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pemanasan global: Kenaikan suhu Bumi berpotensi tembus ambang batas 1,5 Celcius untuk pertama kalinya" wrappingWidth="278.73504638671875">
+                     <font>
+                        <Font name="Arial" size="18.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="723.0" layoutY="221.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lapisan es di Antarktika Timur mulai mencair, ‘raksasa tidur’ yang berpotensi memicu kenaikan permukaan laut" wrappingWidth="297.40167236328125">
+                     <font>
+                        <Font name="Arial" size="18.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="1074.0" layoutY="221.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ratusan anak di hutan Amazon tewas akibat gizi buruk dan kerusakan alam." wrappingWidth="297.40167236328125">
+                     <font>
+                        <Font name="Arial" size="18.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="296.0" layoutY="335.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Peringati Hari Lingkungan Hidup Sedunia, Masyarakat Bintan Tanam Mangrove.">
+                     <font>
+                        <Font name="Arial" size="28.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="296.0" layoutY="491.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Iriana Ajak Masyarakat Untuk Kelola Sampah Organik Jadi Kompos">
+                     <font>
+                        <Font name="Arial" size="28.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="294.0" layoutY="371.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sejumlah karyawan Laguna Bintan yang terdiri dari Banyan Tree Bintan, Angsana Bintan, Cassia Bintan dan Laguna Golf yang berada di Kawasan Bintan Resort Lagoi bersama Mahasiwa Umrah, Perwakilan Pemkab Bintan, dan masyarakat Desa Pengundang, Kabupaten Bintan, melakukan penanaman mangrove atau pohon bakau." wrappingWidth="984.99609375">
+                     <font>
+                        <Font name="Arial" size="18.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="294.0" layoutY="527.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Oase Kabinet Indonesia Maju yang didukung oleh Kementerian Lingkungan Hidup dan Kehutanan (KLHK) menggelar “Kompos Satu Negeri” secara hybrid bersama masyarakat serentak di 38 Provinsi." wrappingWidth="984.99609375">
+                     <font>
+                        <Font name="Arial" size="18.0" />
+                     </font>
+                  </Text>
+                  <Button layoutX="56.0" layoutY="30.0" mnemonicParsing="false" onAction="#keHalamanBerita1" style="-fx-background-color: no;">
+                     <graphic>
+                        <ImageView fitHeight="170.0" fitWidth="299.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Sumber%20Foto/air%20kanal%20venezuela.jpg" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button layoutX="723.0" layoutY="31.0" mnemonicParsing="false" onAction="#keHalamanBerita3" style="-fx-background-color: no;">
+                     <graphic>
+                        <ImageView fitHeight="170.0" fitWidth="294.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Sumber%20Foto/Lapisan%20es%20antartika.jpg" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button layoutX="62.0" layoutY="303.0" mnemonicParsing="false" onAction="#keHalamanBerita5" style="-fx-background-color: no;">
+                     <graphic>
+                        <ImageView fitHeight="148.0" fitWidth="226.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Sumber%20Foto/Peringati%20hari%20lingkungan%20hidup.jpeg" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button layoutX="406.0" layoutY="27.0" mnemonicParsing="false" onAction="#keHalamanBerita2" style="-fx-background-color: no;">
+                     <graphic>
+                        <ImageView fitHeight="174.0" fitWidth="278.0" layoutX="40.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Sumber%20Foto/pemanasan%20global.jpg" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button layoutX="1071.0" layoutY="33.0" mnemonicParsing="false" onAction="#keHalamanBerita4" style="-fx-background-color: no;">
+                     <graphic>
+                        <ImageView fitHeight="160.0" fitWidth="286.0" layoutX="1071.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Sumber%20Foto/ratusan%20anak.jpg" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button layoutX="60.0" layoutY="462.0" mnemonicParsing="false" onAction="#keHalamanBerita6" style="-fx-background-color: no;">
+                     <graphic>
+                        <ImageView fitHeight="149.0" fitWidth="241.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Sumber%20Foto/Iriana%20ajak.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

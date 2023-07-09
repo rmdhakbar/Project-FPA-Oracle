@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1400.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TugasBesar.FXMLLogoutController">
+   <children>
+      <BorderPane fx:id="mainPane" prefHeight="700.0" prefWidth="1400.0">
+         <center>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white;" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="625.0" layoutY="81.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Sumber%20Foto/user%20(1).png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="513.0" layoutY="293.0" text="Username :">
+                     <font>
+                        <Font name="Arial Bold" size="26.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="451.0" layoutY="335.0" text="Nomer Telepon :">
+                     <font>
+                        <Font name="Arial Bold" size="26.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="571.0" layoutY="419.0" text="Email :">
+                     <font>
+                        <Font name="Arial Bold" size="26.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="554.0" layoutY="376.0" text="Alamat :">
+                     <font>
+                        <Font name="Arial Bold" size="26.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="Lusername" layoutX="667.0" layoutY="293.0">
+                     <font>
+                        <Font size="26.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="Lnomor" layoutX="667.0" layoutY="332.0">
+                     <font>
+                        <Font size="26.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="Lalamat" layoutX="667.0" layoutY="373.0">
+                     <font>
+                        <Font size="26.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="Lemail" layoutX="667.0" layoutY="416.0">
+                     <font>
+                        <Font size="26.0" />
+                     </font>
+                  </Label>
+                  <Button layoutX="607.0" layoutY="460.0" mnemonicParsing="false" onAction="#handleLogout" style="-fx-background-color: no;">
+                     <graphic>
+                        <Pane prefHeight="87.0" prefWidth="170.0">
+                           <children>
+                              <ImageView fitHeight="82.0" fitWidth="68.0" layoutX="14.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@Sumber%20Foto/power.png" />
+                                 </image>
+                              </ImageView>
+                              <Label layoutX="82.0" layoutY="31.0" text="Logout" textFill="RED">
+                                 <font>
+                                    <Font name="Arial Bold" size="24.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                     </graphic>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

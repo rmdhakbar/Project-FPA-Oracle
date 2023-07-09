@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1400.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TugasBesar.FXMLDonasi1Controller">
+   <children>
+      <BorderPane fx:id="mainPane" prefHeight="700.0" prefWidth="1400.0">
+         <center>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white;" BorderPane.alignment="CENTER">
+               <children>
+                  <Button layoutX="501.0" layoutY="230.0" mnemonicParsing="false" onAction="#keHalamanPilihDOnasi">
+                     <graphic>
+                        <Pane prefHeight="111.0" prefWidth="416.0">
+                           <children>
+                              <ImageView fitHeight="113.0" fitWidth="110.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@Sumber%20Foto/icons8-add-50.png" />
+                                 </image>
+                              </ImageView>
+                              <Label layoutX="133.0" layoutY="33.0" text="Tambah Donasi">
+                                 <font>
+                                    <Font name="Arial" size="36.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                     </graphic>
+                  </Button>
+                  <Button layoutX="542.0" layoutY="368.0" mnemonicParsing="false" onAction="#keHalamanLihatDonasi">
+                     <graphic>
+                        <Pane layoutX="542.0" prefHeight="99.0" prefWidth="324.0">
+                           <children>
+                              <ImageView fitHeight="126.0" fitWidth="103.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@Sumber%20Foto/see.png" />
+                                 </image>
+                              </ImageView>
+                              <Label layoutX="115.0" layoutY="31.0" text="Lihat Donasi">
+                                 <font>
+                                    <Font name="Arial" size="36.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </Pane>
+                     </graphic>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

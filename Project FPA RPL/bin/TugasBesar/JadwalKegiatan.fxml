@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1400.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane layoutX="-5.0" layoutY="-2.0" prefHeight="700.0" prefWidth="1400.0">
+         <top>
+            <AnchorPane prefHeight="80.0" prefWidth="1608.0" BorderPane.alignment="CENTER" />
+         </top>
+         <left>
+            <AnchorPane prefHeight="905.0" prefWidth="1608.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Text layoutX="5.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Jadwal yang tersedia :" wrappingWidth="412.13671875">
+                     <font>
+                        <Font name="Arial" size="36.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="14.0" layoutY="267.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="138.0" layoutX="-1.0" layoutY="48.0" stroke="BLACK" strokeType="INSIDE" width="1406.0" />
+                  <ImageView fitHeight="75.0" fitWidth="50.0" layoutX="1027.0" layoutY="57.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../Gambar%20rpl/schedule.png" />
+                     </image>
+                  </ImageView>
+                  <Text fill="WHITE" layoutX="13.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Membersihkan pantai vice city" wrappingWidth="714.3033752441406">
+                     <font>
+                        <Font name="Arial" size="48.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="13.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kondisi memprihatinkan terlihat di pantyai vice city. Sepanjang mata memandang, terlihat pantai ini tertutup berbagai jenis sampah" wrappingWidth="654.63671875">
+                     <font>
+                        <Font name="Arial" size="18.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="75.0" fitWidth="50.0" layoutX="1027.0" layoutY="118.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../Gambar%20rpl/placeholder.png" />
+                     </image>
+                  </ImageView>
+                  <Text fill="WHITE" layoutX="1086.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tanggal, 11-10-2023">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="1086.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lokasi, Pantai Vice city " wrappingWidth="233.63671875">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#6ebbff" height="138.0" layoutX="5.0" layoutY="183.0" stroke="BLACK" strokeType="INSIDE" width="1400.0" />
+                  <Text fill="WHITE" layoutX="14.0" layoutY="241.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Membantu korban gunung meletus">
+                     <font>
+                        <Font name="Arial" size="48.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="13.0" layoutY="267.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gunung anak krakatau meletus pada senin (25/6) siang sekitar pukul 12.37 WIB. Semburan abu vulkanik mencapai 1.400 meter di atas puncak" wrappingWidth="654.63671875">
+                     <font>
+                        <Font name="Arial" size="18.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="75.0" fitWidth="50.0" layoutX="1027.0" layoutY="199.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../Gambar%20rpl/schedule.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="75.0" fitWidth="50.0" layoutX="1027.0" layoutY="254.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../Gambar%20rpl/placeholder.png" />
+                     </image>
+                  </ImageView>
+                  <Text fill="WHITE" layoutX="1089.0" layoutY="230.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tanggal, 25-6-2023">
+                     <font>
+                        <Font name="Arial" size="18.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="1077.0" layoutY="286.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lokasi, pos 1 gunung anak krakatau" wrappingWidth="309.871826171875">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="138.0" layoutX="-1.0" layoutY="317.0" stroke="BLACK" strokeType="INSIDE" width="1406.0" />
+                  <Text fill="WHITE" layoutX="13.0" layoutY="360.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bantu bersihin rumah pak Ojan" wrappingWidth="714.3033752441406">
+                     <font>
+                        <Font name="Arial" size="48.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="13.0" layoutY="386.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Diduga pak Ojan kesusahan dalam hal mengurus rumah dikarenakan di tinggal istrinya kerja ke California, Pak ojan pun pusing harus melakukan apa untuk mengurus rumahnya dan akhirnya pak ojan menggunakan aplikasi ini untuk memanggil bantuan" wrappingWidth="654.63671875">
+                     <font>
+                        <Font name="Arial" size="18.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="75.0" fitWidth="50.0" layoutX="1027.0" layoutY="324.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../Gambar%20rpl/schedule.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="75.0" fitWidth="50.0" layoutX="1027.0" layoutY="392.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../Gambar%20rpl/placeholder.png" />
+                     </image>
+                  </ImageView>
+                  <Text fill="WHITE" layoutX="1089.0" layoutY="355.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tanggal, 1-7-2023">
+                     <font>
+                        <Font name="Arial" size="18.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="1081.0" layoutY="424.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lokasi, Rumah pak Ojan" wrappingWidth="309.871826171875">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+         </left>
+      </BorderPane>
+   </children>
+</AnchorPane>

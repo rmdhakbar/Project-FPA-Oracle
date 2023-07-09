@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1400.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane layoutX="7.0" layoutY="5.0" prefHeight="700.0" prefWidth="1400.0">
+         <top>
+            <AnchorPane prefHeight="80.0" prefWidth="1400.0" BorderPane.alignment="CENTER" />
+         </top>
+         <center>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <TextArea layoutX="555.0" layoutY="132.0" prefHeight="318.0" prefWidth="729.0" promptText="Write your news here!">
+                     <font>
+                        <Font name="Arial Bold Italic" size="33.0" />
+                     </font>
+                  </TextArea>
+                  <TextArea layoutX="555.0" layoutY="26.0" prefHeight="88.0" prefWidth="727.0" promptText="Title">
+                     <font>
+                        <Font name="Arial Bold Italic" size="31.0" />
+                     </font>
+                  </TextArea>
+                  <Button layoutX="1115.0" layoutY="516.0" mnemonicParsing="false" style="-fx-background-color: RED;" text="Add News!" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Bold" size="26.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>
